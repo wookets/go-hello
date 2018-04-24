@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/wookets/stringutil"
+	"github.com/wookets/goutil"
 )
 
 func main() {
 	fmt.Printf("Hello World!\n")
-	fmt.Printf(stringutil.Reverse("\n!oG olleH"))
+	fmt.Printf(goutil.Reverse("\n!oG olleH"))
 }
